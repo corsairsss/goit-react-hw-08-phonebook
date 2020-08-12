@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  src: url('./roboto-v20-latin-regular.ttf');
+}
+
+.container {
+  position: relative;
+  font-family: 'roboto';
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 2px -2px 5px 1px rgba(61, 61, 61, 0.616);
+  padding-bottom: 5px;
+}
+.container h2 {
+  padding-top: 10px;
+  color: rgb(63, 75, 189);
+}
+
+.appear {
+  transform: translateY(-100%);
+}
+.appearActive {
+  transform: translateY(0);
+  transition: all 1000ms linear;
+}

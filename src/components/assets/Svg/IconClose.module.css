@@ -1,0 +1,16 @@
+.svgLightTheme {
+  fill: #f30606;
+  width: 25px;
+  height: 25px;
+}
+.svgDarkTheme {
+  fill: #ffffff;
+  width: 25px;
+  height: 25px;
+}
+.svgLightTheme:hover {
+  fill: #ff000056;
+}
+.svgDarkTheme:hover {
+  fill: #f30606;
+}

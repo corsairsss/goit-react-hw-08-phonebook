@@ -1,0 +1,29 @@
+.enter{
+    /* transform:translateX(-100%); */
+    transform: scale(0.1);
+    opacity: 0.1;
+  }
+  
+  .enterActive{
+    /* transform:translateX(0); */
+    opacity: 1;
+    transform: scale(1);
+    
+    transition:all 250ms linear ;
+  }
+  
+  .exit{
+   /* transform:translateX(0); */
+   opacity: 1;
+   transform: scale(1);
+  
+  
+  }
+  .exitActive{
+    opacity: 0.1;
+    transform: scale(0.1);
+  
+    /* transform:translateX(-100%); */
+    transition:all 250ms linear ;
+  
+  }
